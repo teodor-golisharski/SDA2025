@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TeamForMillions", "TeamForM
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WalkingMedian", "WalkingMedian\WalkingMedian.vcxproj", "{3F5ADB1B-3615-4FF0-8F3E-C08AA46932FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDAHomework", "SDAHomework\SDAHomework.vcxproj", "{264F48BD-C125-4F9C-8FC4-5652EA3229D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,6 +35,14 @@ Global
 		{3F5ADB1B-3615-4FF0-8F3E-C08AA46932FB}.Release|x64.Build.0 = Release|x64
 		{3F5ADB1B-3615-4FF0-8F3E-C08AA46932FB}.Release|x86.ActiveCfg = Release|Win32
 		{3F5ADB1B-3615-4FF0-8F3E-C08AA46932FB}.Release|x86.Build.0 = Release|Win32
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Debug|x64.ActiveCfg = Debug|x64
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Debug|x64.Build.0 = Debug|x64
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Debug|x86.Build.0 = Debug|Win32
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Release|x64.ActiveCfg = Release|x64
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Release|x64.Build.0 = Release|x64
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Release|x86.ActiveCfg = Release|Win32
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F6B31B6F-95E3-4F82-9E2E-75DD9BC6DB46} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{3F5ADB1B-3615-4FF0-8F3E-C08AA46932FB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{264F48BD-C125-4F9C-8FC4-5652EA3229D6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3E5DCB5-CE15-4A17-BEAB-CB6A2B0A452A}
