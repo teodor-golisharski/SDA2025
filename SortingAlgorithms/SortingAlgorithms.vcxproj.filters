@@ -33,6 +33,9 @@
     <ClCompile Include="QuickSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CountingSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuickSort.h">

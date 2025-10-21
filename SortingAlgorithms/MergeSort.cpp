@@ -15,7 +15,7 @@ void merge(int arr[], int start, int middle, int end)
 
 	// Create arrays arr1 and arr2
 	int* arr1 = new int[n1];
-	int* arr2 = new int[n1];
+	int* arr2 = new int[n2];
 
 	// Paste the elements in arr1 and arr2 
 	for (int i = 0; i < n1; i++)
