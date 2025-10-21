@@ -1,3 +1,10 @@
+// Merge Sort Algorithm - fast sorting algorithm
+// Time Complexity - O(nlog(n))
+// Memory - O(n)
+
+// Idea: recursively break the array to two others
+// than at the base of the recursion start sorting them and
+// merge the two sorted arrays into one
 
 void merge(int arr[], int start, int middle, int end)
 {
