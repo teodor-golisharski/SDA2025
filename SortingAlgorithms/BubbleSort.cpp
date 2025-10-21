@@ -4,7 +4,7 @@
 // Time Complexity = O(n^2)
 
 // Bubble Sort using std::vector
-void bubbleSort(std::vector<int> arr)
+void bubbleSort(std::vector<int>& arr)
 {
 	bool swapped;
 
