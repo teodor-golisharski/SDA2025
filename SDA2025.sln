@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11205.157 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework_01", "Homework_01", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeTwoSortedLinkedLists", "MergeTwoSortedLinkedLists\MergeTwoSortedLinkedLists.vcxproj", "{00A0EA1C-8D3E-409A-B22F-EDD18CF05424}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeleteANode", "DeleteANode\DeleteANode.vcxproj", "{EC6C830D-62B6-415C-8634-2BE062F50BAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework_05", "Homework_05", "{D02A6A93-3DF3-4B96-ABE9-B346678840F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,7 @@ Global
 		{8B967A15-F487-432D-935E-0B4D1C3FAFEB} = {4E7BE774-9C41-43C8-8BFF-DAB26CBB249A}
 		{00A0EA1C-8D3E-409A-B22F-EDD18CF05424} = {4E7BE774-9C41-43C8-8BFF-DAB26CBB249A}
 		{EC6C830D-62B6-415C-8634-2BE062F50BAC} = {4E7BE774-9C41-43C8-8BFF-DAB26CBB249A}
+		{D02A6A93-3DF3-4B96-ABE9-B346678840F7} = {8082506F-0876-4CDD-AAFA-21DF1D8CD555}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3E5DCB5-CE15-4A17-BEAB-CB6A2B0A452A}
