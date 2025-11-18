@@ -64,14 +64,14 @@ private:
 		else {
 			// STEP 2: Node with only one child or no child
 
-			if (current->left == NULL) {
+			if (current->left == nullptr) {
 				Node* temp = current->right;
-				free(current);
+				delete current;
 				return temp;
 			}
-			else if (current->right == NULL) {
+			else if (current->right == nullptr) {
 				Node* temp = current->left;
-				free(current);
+				delete current;
 				return temp;
 			}
 
