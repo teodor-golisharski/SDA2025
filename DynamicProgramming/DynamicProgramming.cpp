@@ -49,18 +49,23 @@ int Min(int a, int b, int c) {
 	return std::min(std::min(a, b), c);
 }
 int ans(int x) {
+	// Base
 	if (x == 0) {
 		return 0;
 	}
 	if (x < 0) {
 		return INF;
 	}
+
+	// Check whether already calculated
 	if (dp[x] != 0) {
 		return dp[x];
 	}
 
+	// Recurrence equation
 	int val = Min(ans(x - 2), ans(x - 3), ans(x - 7));
 
+	// Check whether val is found
 	if (val == INF) {
 		return INF;
 	}
@@ -80,10 +85,13 @@ int moneyProblem_bottom_up(std::vector<int>& coins, int amount) {
 	for (size_t i = 1; i <= amount; i++) {
 
 		for (int coin : coins) {
+			
 			// Check whether current coin could be used
 			if (coin <= i) {
+				
 				// Check whether dp[i - coin] is calculated
 				if (dp[i - coin] != INT_MAX) {
+					
 					// Find the minimum coins used
 					dp[i] = std::min(dp[i], dp[i - coin] + 1);
 				}
@@ -94,6 +102,7 @@ int moneyProblem_bottom_up(std::vector<int>& coins, int amount) {
 	return dp[amount] == INT_MAX ? -1 : dp[amount];
 }
 
+// Money problem (Bottom_Up)
 int minPathSum(std::vector<std::vector<int>>& grid) {
 	int rows = grid.size();
 	if (rows == 0) return 0;
@@ -125,7 +134,7 @@ int minPathSum(std::vector<std::vector<int>>& grid) {
 }
 
 int minPathSum_top_down(int x, int y) {
-	// to do
+	// to-do
 }
 
 int main() {
