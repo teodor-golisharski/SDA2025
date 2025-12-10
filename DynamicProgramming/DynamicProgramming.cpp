@@ -13,6 +13,8 @@ std::vector<std::vector<int>> grid = {
 
 std::vector<std::vector<int>> result(3, std::vector<int>(3, 0));
 
+
+
 // Fibonachi numbers (Top-Down)
 int fib(int n) {
 	// Base
@@ -70,6 +72,7 @@ int ans(int x) {
 		return INF;
 	}
 
+	// Store and return
 	return dp[x] = val + 1;
 }
 
