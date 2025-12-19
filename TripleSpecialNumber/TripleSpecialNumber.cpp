@@ -14,8 +14,7 @@ int main() {
 	for (int x : arr) {
 		map[x]++;
 	}
-
-
+	int count = 0;
 	for (auto& a : map) {
 		int key = a.first;
 		int value = a.second;

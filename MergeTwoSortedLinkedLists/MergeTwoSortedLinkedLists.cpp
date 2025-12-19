@@ -99,7 +99,7 @@ SinglyLinkedListNode* mergeLists(SinglyLinkedListNode* head1, SinglyLinkedListNo
 }
 
 int main() {
-	ofstream fout(getenv("OUTPUT_PATH"));
+	/*ofstream fout(getenv("OUTPUT_PATH"));
 
 	int tests;
 	cin >> tests;
@@ -144,5 +144,5 @@ int main() {
 
 	fout.close();
 
-	return 0;
+	return 0;*/
 }

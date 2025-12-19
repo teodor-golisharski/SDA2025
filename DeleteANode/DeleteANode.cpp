@@ -84,7 +84,7 @@ SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* llist, int position) {
 }
 
 int main() {
-    ofstream fout(getenv("OUTPUT_PATH"));
+    /*ofstream fout(getenv("OUTPUT_PATH"));
 
     SinglyLinkedList* llist = new SinglyLinkedList();
 
@@ -113,5 +113,5 @@ int main() {
 
     fout.close();
 
-    return 0;
+    return 0;*/
 }
