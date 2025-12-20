@@ -95,8 +95,21 @@ public:
         vector<int>& currentPath, 
         int currentNode) {
 	    
-		// TO-DO: Implement the DFS logic to find all paths from source to target
+		currentPath.push_back(currentNode);
+
+        if (currentNode == target) {
+			allPaths.push_back(currentPath);
+        }
+        else {
+            for (int& nextNode : graph[currentNode]) {
+				dfs(graph, target, allPaths, currentPath, nextNode);
+            }
+        }
+
+		currentPath.pop_back();
     }
+
+
 
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
 		vector<vector<int>> allPaths;
