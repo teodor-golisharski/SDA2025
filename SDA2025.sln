@@ -57,6 +57,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinibusDriver", "MinibusDri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap_PriorityQueue", "Heap_PriorityQueue\Heap_PriorityQueue.vcxproj", "{6040DCAB-C3C8-4978-87A2-9AAC0AC73B6A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphImplementations", "GraphImplementations\GraphImplementations.vcxproj", "{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DijkstraAlgorithm", "DijkstraAlgorithm\DijkstraAlgorithm.vcxproj", "{6C6ED708-28DE-44FE-B359-B8DBBC69F842}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -217,6 +221,22 @@ Global
 		{6040DCAB-C3C8-4978-87A2-9AAC0AC73B6A}.Release|x64.Build.0 = Release|x64
 		{6040DCAB-C3C8-4978-87A2-9AAC0AC73B6A}.Release|x86.ActiveCfg = Release|Win32
 		{6040DCAB-C3C8-4978-87A2-9AAC0AC73B6A}.Release|x86.Build.0 = Release|Win32
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Debug|x64.ActiveCfg = Debug|x64
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Debug|x64.Build.0 = Debug|x64
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Debug|x86.Build.0 = Debug|Win32
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Release|x64.ActiveCfg = Release|x64
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Release|x64.Build.0 = Release|x64
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Release|x86.ActiveCfg = Release|Win32
+		{DC5CE27E-6890-4B48-8380-BB2E9B39F8BA}.Release|x86.Build.0 = Release|Win32
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Debug|x64.ActiveCfg = Debug|x64
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Debug|x64.Build.0 = Debug|x64
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Debug|x86.Build.0 = Debug|Win32
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Release|x64.ActiveCfg = Release|x64
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Release|x64.Build.0 = Release|x64
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Release|x86.ActiveCfg = Release|Win32
+		{6C6ED708-28DE-44FE-B359-B8DBBC69F842}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
